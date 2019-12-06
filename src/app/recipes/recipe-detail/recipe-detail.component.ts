@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recipe-detail.component.css']
 })
 export class RecipeDetailComponent implements OnInit {
+  itemsOnDropdown = ['To Shopping List', 'Edit Recipe', 'Delete Recipe'];
 
   constructor() { }
 
